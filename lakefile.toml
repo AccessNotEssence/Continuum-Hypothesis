@@ -1,0 +1,10 @@
+name = "ContinuumHypothesis"
+version = "0.1.0"
+keywords = ["math", "logic", "set-theory", "formal-verification"]
+defaultTargets = ["ContinuumHypothesis"]
+
+[leanOptions]
+pp.unicode.fun = true
+
+[[lean_lib]]
+name = "ContinuumHypothesis"
